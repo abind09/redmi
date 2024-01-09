@@ -70,7 +70,7 @@ export default function Login() {
                 id="email"
                 {...register("email")}
                 className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-             
+                placeholder="email"
               />
             </div>
             <div className="mb-4">
@@ -85,7 +85,7 @@ export default function Login() {
                 id="password"
                 {...register("password")}
                 className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-             
+                placeholder="password"
               />
             </div>
 
